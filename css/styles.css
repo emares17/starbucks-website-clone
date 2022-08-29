@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.nav-container {
+    box-shadow: 0px 1px 1px 0px rgba(87, 87, 87, 0.359);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(87, 87, 87, 0.359);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(87, 87, 87, 0.359);
+}
+.nav-bar {
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-size: 8px;
+    max-width: 1300px;
+}
+.nav-left svg {
+    width: 25px;
+    margin-right: 15px;
+}
+.nav-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right svg {
+    width: 25px;
+}
+.nav-right {
+    font-size: 7px;
+}
+.nav-left > *,
+.nav-right > * {
+    margin: 5px;
+}
+.hover-grn:hover {
+    color: #00754a
+}
+.find-store {
+    display: flex;
+    align-items: center;
+}
+.find-store svg {
+    margin-right: 3px;
+}
+.sign-in-btn, .join-now-btn {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 3px 10px;
+
+}
+.join-now-btn {
+    background-color: black;
+    color: white;
+}
+.sign-in-btn:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.join-now-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
