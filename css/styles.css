@@ -15,11 +15,11 @@ body {
 .nav-bar {
     padding: 9px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     font-size: 8px;
-    max-width: 1300px;
+    max-width: 845px;
 }
 .nav-left svg {
     width: 25px;
@@ -39,6 +39,7 @@ body {
 }
 .nav-right {
     font-size: 7px;
+    padding-right: 50px;
 }
 .nav-left > *,
 .nav-right > * {
@@ -70,4 +71,53 @@ body {
 }
 .join-now-btn:hover {
     background-color: rgba(0, 0, 0, 0.7);
+}
+.main-container {
+    max-width: 730px;
+    margin: auto;
+}
+.product-container img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.product-container {
+    display: flex;
+    margin-top: 20px;
+}
+.product-left, .product-right {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    align-content: stretch;
+}
+.title {
+    font-size: 30px;
+    padding: 0 40px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.desc {
+    font-size: 14px;
+    padding: 0 25px;
+    text-align: center;
+    font-weight: 200;
+}
+.title, .desc {
+    margin-bottom: 20px;
+}
+.product-btn {
+    font-size: 9px;
+    border: 1px solid; 
+    padding: 4px 8px;
+    border-radius: 50px;
+}
+.product-disclaimer {
+    text-align: center;
+    font-size: 7px;
+    margin: 20px 0px 20px 0;
+    padding: 0 30px;
 }
